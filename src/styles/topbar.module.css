@@ -1,0 +1,14 @@
+.links li:hover > div.botLine,
+.links li > ul.innerMenu:hover > div.botLine {
+  width: 100%;
+}
+.links li:hover > ul.innerMenu,
+.links li > ul.innerMenu:hover > ul.innerMenu {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+.mobileLinks li.active > ul.innerMenu {
+  display: block;
+  height: auto;
+}
