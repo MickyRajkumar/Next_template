@@ -8,9 +8,9 @@ git clone https://github.com/MickyRajkumar/Next_template.git
 
 Download the recommended extension for vsCode.
 ```bash
-  prettier-vscode
-  vscode-eslint
-  gitlens
+ prettier-vscode
+ vscode-eslint
+ gitlens
 ```
 
 Then, download Node Modules:
