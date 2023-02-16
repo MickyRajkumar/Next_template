@@ -1,6 +1,6 @@
 ## Next_Template
 
-This project is a startup template for Next.js using TypeScript and Tailwind CSS, and includes all the VSCode Prettier settings.
+This project is a starter template for Next.js using TypeScript and Tailwind CSS, and includes all the VSCode, Prettier, ESLint settings.
 <br>
 <br>
 
