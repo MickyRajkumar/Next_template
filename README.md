@@ -2,8 +2,8 @@
 This project is a startup template for Next.js using TypeScript and Tailwind CSS, and includes all the VSCode Prettier settings.
 <br>
 <br>
-Permission to Modify and Add Features:
-        Really encourage any modifications or additional features to my project. You are free to modify the codebase, add new features, or use parts of it in your own projects, provided that you give proper attribution to the original project. If you make any significant changes or improvements, we would be grateful if you could share them back with the community. 
+### Permission to Modify and Add Features:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Really encourage any modifications or additional features to my project. You are free to modify the codebase, add new features, or use parts of it in your own projects, provided that you give proper attribution to the original project. If you make any significant changes or improvements, we would be grateful if you could share them back with the community. 
 
 ## Getting Started
 Clone the Repository:
