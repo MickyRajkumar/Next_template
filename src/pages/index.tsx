@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Title</title>
-        <meta name="description" content="hanou || Marketplace" />
+        <meta name="description" content="Nextjs template with typeScript and tailwind css" />
       </Head>
 
       <main>
