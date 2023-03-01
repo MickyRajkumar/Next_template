@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="hanou, marketplace, online shopping, imphal, free delivery, delivery"
+          content="This project is a starter template for Next.js using TypeScript and Tailwind CSS, and includes all the VSCode, Prettier, ESLint settings."
         />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

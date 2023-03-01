@@ -6,8 +6,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Title</title>
-        <meta name="description" content="Nextjs template with typeScript and tailwind css" />
+        <title>NextJs Template</title>
+        <meta
+          name="description"
+          content="NextJS starter template using TypeScript and Tailwind CSS, and includes VSCode + Prettier + ESLint."
+        />
       </Head>
 
       <main>
