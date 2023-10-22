@@ -9,8 +9,11 @@
 /coverage
 
 # next.js
-/.next/
+/.next
 /out/
+.next
+
+.husky/pre-commit
 
 # production
 /build
@@ -24,9 +27,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+package-lock.json
+yarn.lock
+package-lock.json
+tsconfig.tsbuildinfo
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel

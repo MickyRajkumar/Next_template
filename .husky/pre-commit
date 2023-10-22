@@ -1,5 +1,28 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn check-lint
-yarn check-format
+branch="$(git rev-parse --abbrev-ref HEAD)"
+main="main"
+dev="dev"
+
+# if [ "$branch" = "$main" ] || [ "$branch" = "$dev" ]
+# then
+#   echo "You can't commit directly to the $branch branch"
+#   exit 1
+# fi
+
+if [ -f yarn.lock ]; then
+  package_manager="yarn"
+else
+  package_manager="npm"
+fi
+
+if [ "$package_manager" = "yarn" ]; then
+  yarn check-lint
+  yarn check-types
+  yarn check-format
+else
+  npm run check-lint
+  npm run check-types
+  npm run check-format
+fi
